@@ -10,7 +10,6 @@ sudo ufw allow 'Nginx Full'
 sudo apt -y install curl
 
 # Web site
-cd /var/www/html/ && sudo rm index.html
 username=$(whoami)
 cd /home/$(whoami)/
 myip=$(wget -qO - eth0.me)
