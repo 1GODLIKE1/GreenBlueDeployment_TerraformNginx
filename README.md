@@ -151,7 +151,7 @@ resource "aws_default_subnet" "default_sub_2" {
 }
 ```
 ### File output.tf
-In ***output.tf***, everything that will be output is specified after using the 'terraform apply' command and creating servers. The file outputs:
+In ***output.tf***,  everything that will be output is specified after using the 'terraform apply' command and creating servers. The file outputs:
 + Latest version **Ubuntu**;
   + Her id as well as her name;
 + As well as the DNS name of the load balancer.
